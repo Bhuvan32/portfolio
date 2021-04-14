@@ -52,7 +52,11 @@ header{
 					font-weight: 300;
 					display: block;
 					padding: 0 0.5em;
+				&:hover{
+					color: rgb(0, 247, 255);
 				}
+				}
+			
 			}
 		}
 	}
@@ -88,10 +92,11 @@ header{
 		justify-content: center;
 		margin: 0 auto;
 		font-weight: bold;
-		color: #FF64CB;
 		margin: 1em 0 3em 0;
+		a{
+		color: #FF64CB;
 
-		
+		}
 	}
 	.scroll{
 		width: 25px;
@@ -153,8 +158,8 @@ section{
 }
 .skills{
 background: rgba($color: #221E41, $alpha: 0.85);
-
 }
+
 .skills-container ul li{
 	background: #fff;
 	padding: 2em;
@@ -219,7 +224,13 @@ background: rgba($color: #221E41, $alpha: 0.85);
 	}
 }
 
-
+@media only screen and (min-width: 700px){
+	.skills-container ul{
+display: grid;
+		grid-template-columns: repeat(3, auto);
+		grid-gap: 1em
+	}
+}
 
 @media only screen and (min-width: 900px){
 
@@ -389,7 +400,20 @@ background: rgba($color: #221E41, $alpha: 0.85);
 	}
 }
 
-
+@media only screen and (min-width: 1600px){
+	header{
+		padding: 2em 2em 2em 40em;
+	}
+	.social-header{
+		padding: 2em 40em 2em 0;
+	}
+	section{
+		padding: 6em 40em 4em 40em;
+	}
+	.hero .content{
+		padding: 9em 40em 6em 40em;
+	}
+}
 
 
 

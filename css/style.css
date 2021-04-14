@@ -73,6 +73,10 @@ header nav ul li a {
   padding: 0 0.5em;
 }
 
+header nav ul li a:hover {
+  color: #00f7ff;
+}
+
 .circle {
   animation: circleAnim 0.8s infinite alternate-reverse;
 }
@@ -125,8 +129,11 @@ header nav ul li a {
           justify-content: center;
   margin: 0 auto;
   font-weight: bold;
-  color: #FF64CB;
   margin: 1em 0 3em 0;
+}
+
+.hero .meet a {
+  color: #FF64CB;
 }
 
 .hero .scroll {
@@ -270,6 +277,16 @@ section {
 .footer .contact a {
   font-size: 0.8em;
   font-weight: 300;
+}
+
+@media only screen and (min-width: 700px) {
+  .skills-container ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -447,6 +464,21 @@ section {
   }
   .hero .content {
     padding: 9em 20em 6em 20em;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  header {
+    padding: 2em 2em 2em 40em;
+  }
+  .social-header {
+    padding: 2em 40em 2em 0;
+  }
+  section {
+    padding: 6em 40em 4em 40em;
+  }
+  .hero .content {
+    padding: 9em 40em 6em 40em;
   }
 }
 /*# sourceMappingURL=style.css.map */
