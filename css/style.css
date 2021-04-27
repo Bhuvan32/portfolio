@@ -270,6 +270,11 @@ section {
   margin-left: 1em;
 }
 
+.hire-me a {
+  color: #FF64CB;
+  margin-left: 1em;
+}
+
 .footer .contact {
   padding: 0 2em 2em 1.5em;
 }
