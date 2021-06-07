@@ -391,31 +391,47 @@ display: grid;
 }
 @media only screen and (min-width: 1450px){
 		header{
-		padding: 2em 2em 2em 20em;
+		padding: 2em 2em 2em 16em;
 	}
 	.social-header{
-		padding: 2em 20em 2em 0;
+		padding: 2em 16em 2em 0;
 	}
 	section{
-		padding: 6em 20em 4em 20em;
+		padding: 6em 16em 4em 16em;
 	}
 	.hero .content{
-		padding: 9em 20em 6em 20em;
+		padding: 9em 16em 6em 16em;
 	}
 }
 
 @media only screen and (min-width: 1600px){
 	header{
-		padding: 2em 2em 2em 40em;
+		padding: 2em 2em 2em 25em;
 	}
 	.social-header{
-		padding: 2em 40em 2em 0;
+		padding: 2em 25em 2em 0;
 	}
 	section{
-		padding: 6em 40em 4em 40em;
+		padding: 6em 25em 4em 25em;
 	}
 	.hero .content{
-		padding: 9em 40em 6em 40em;
+		padding: 9em 25em 6em 25em;
+	}
+}
+
+
+@media only screen and (min-width: 2000px){
+	header{
+		padding: 2em 2em 2em 35em;
+	}
+	.social-header{
+		padding: 2em 35em 2em 0;
+	}
+	section{
+		padding: 6em 35em 4em 35em;
+	}
+	.hero .content{
+		padding: 9em 35em 6em 35em;
 	}
 }
 
